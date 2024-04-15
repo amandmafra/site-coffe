@@ -1,0 +1,264 @@
+A:link
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    /*FONT-FAMILY: Verdana;*/
+    TEXT-DECORATION: underline;
+}
+A:active
+{
+    /*FONT-FAMILY: Verdana;*/
+    TEXT-DECORATION: underline;
+}
+A:visited
+{
+    /*FONT-FAMILY: Verdana;*/
+    TEXT-DECORATION: underline;
+}
+A:hover
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    /*FONT-FAMILY: Verdana;*/
+    TEXT-DECORATION: underline;
+}
+.textolink
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #466381;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.tabm
+{
+    BACKGROUND-POSITION: center top;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    BACKGROUND-IMAGE: url(/images/img_papel.gif);
+    COLOR: #000000;
+    BACKGROUND-REPEAT: repeat-y;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.font01a
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana, Arial;
+    BACKGROUND-COLOR: #c0c0c0;
+}
+.font00
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+}
+.table01
+{
+    COLOR: #ffcd00;
+}
+.font01n
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Arial;
+}
+.font01n_arrasto_boleto
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #0000ff;
+    BACKGROUND-COLOR: #c7d6fe;
+    FONT-FAMILY: Verdana, Arial;
+}
+.tr01
+{
+    COLOR: #ffcd00;
+    BACKGROUND-COLOR: #ffffff;
+}
+.font01
+{
+    FONT-SIZE: 10px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana, Arial;
+}
+.fontmenu
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana, Arial;
+}
+.tr01a
+{
+    COLOR: #ffcd00;
+    BACKGROUND-COLOR: #c7d6fe;
+}
+.tr01t
+{
+    COLOR: #0000ff;
+    BACKGROUND-COLOR: #ffcc00;
+}
+.font02
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana;
+}
+.font02_boletim
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana;
+}
+.font00n
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9px;
+    COLOR: gray;
+    FONT-FAMILY: Verdana;
+}
+.font01r
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana;
+}
+.font01f
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #00008b;
+    FONT-FAMILY: 'Courier New';
+}
+.font02a
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 12px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: #dcdcdc;
+}
+.font02n
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana;
+}
+.tabtd01
+{
+    BACKGROUND-COLOR: navy;
+}
+.tabfont01
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #f5f5f5;
+    FONT-FAMILY: Verdana;
+}
+.tabfont02
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: white;
+    FONT-FAMILY: Verdana;
+}
+.tabtd02
+{
+    BACKGROUND-COLOR: sienna;
+}
+.tabtd03
+{
+    BACKGROUND-COLOR: darkcyan;
+}
+.tabtable01
+{
+    BACKGROUND-COLOR: white;
+}
+.f10p_branco
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial;
+}
+.tr01navy
+{
+    FONT-FAMILY: Verdana;
+    BACKGROUND-COLOR: navy;
+    COLOR: White;
+}
+.trb
+{
+    COLOR: #fffbcc;
+    BACKGROUND-COLOR: #fffbcc;
+}
+
+.ferias
+{ background-color: #DEE7FE; 
+ FONT-SIZE: 10px;
+ COLOR: #00008b;	
+ FONT-FAMILY: Verdana, Arial;	
+}
+
+.TabCalendar 
+{ 
+  border: 1px solid #C0C0C0; 
+  padding: 1px; 
+}
+
+.provas
+{ background-color: #FFFF99; 
+ FONT-SIZE: 10px;
+ COLOR: #00008b;	
+ FONT-FAMILY: Verdana, Arial;
+}
+.hr
+{
+
+}
+.divs_pos_graduacao
+{
+    FONT-SIZE: 9px;
+    COLOR: #00008b;
+    FONT-FAMILY: Verdana, Arial;
+}
+.divs_pos_graduacao_t
+{
+    FONT-WEIGHT: bold;    
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana, Arial
+    COLOR: #ffcd00;
+    BACKGROUND-COLOR: #c7d6fe;
+}
+.divs_pos_graduacao_t_principal
+{
+    FONT-WEIGHT: bold;    
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana, Arial;
+    COLOR: #00008b;
+    BACKGROUND-COLOR: #ffcc00;
+}
+.divs_menu_com_foco
+{
+    FONT-WEIGHT: bold;    
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana, Arial;
+    COLOR: #00008b;
+    BACKGROUND-COLOR: #ffcc00;
+}
+
+#hrfooter {
+	color: blue;
+	height: 1px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Inter:wght@200;400&family=Italiana&family=Jua&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café d'Mafranezzi</title>
+  <link rel="stylesheet" href="stylebebida.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="./image/logo1.png" alt="Logo Café">
+    </div>
+    <div class="search">
+      <div class="search-wrapper">
+        <input type="text" placeholder="Pesquisar">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+    <div class="user">
+      <img src="./image/Shopping bag.svg" alt="Ícone de Sacola">
+      <img src="./image/Vector (1).svg" alt="Ícone de Perfil">
+      <span class="user-message">Olá!<br>Entre ou Registre-se</span>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <ul class="menu">
+      <li><a href="pagina_cafe.html"><i class="fas fa-mug-hot"></i>Café</a></li>
+      <li><a href="pagina_cafeteiras.html"><i class="fas fa-blender"></i>Cafeteiras</a></li>
+      <li><a href="pagina_bebida_gourmet.html" id="bebida-gourmet-link"><i class="fas fa-cocktail" id="bebida-gourmet-icon"></i>
+      <span id="bebida-gourmet-text">Bebida Gourmet</span></a></li>
+      <li><a href="pagina_capsulas_cafe.html"><i class="fas fa-capsules"></i>Cápsulas de Café</a></li>
+      <li><a href="pagina_acessorios.html"><i class="fas fa-shopping-bag"></i>Acessórios</a></li>
+    </ul>
+    <a href="pagina_promoções.html" class="button-promo">Promoção</a>
+  </main>
+
+  <div class="image-main">
+    <img src="./image/imagem2pagcafe.jpg" alt="Imagem Principal">
+    <div class="text-overlay">
+      <h2>Experimente</h2>
+      <h3>NOSSAS <br>DELÍCIAS</h3>
+      <hr>
+    </div>
+  </div>
+  
+  <div class="image-secondary">
+    <img src="./image/caferemove2pagina.png" alt="Imagem Menor">
+    <p>Para acompanhar essa paixão nacional que é o café, nosso cardápio tem produtos <br>
+      de qualidade e exclusivos para todas as horas do dia!</p>
+  </div>
+
+  <script>
+  const currentPage = window.location.href.split('/').pop();
+
+const link = document.getElementById('bebida-gourmet-link');
+
+if (link) {
+  link.classList.add('active');
+}
+  </script>
+
+  <section class="menu-section">
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="./image/item1cafe.jpg" alt="Nome do Item 1">
+        <div class="menu-description">
+          <h2>Café Mocha (Mocaccino)</h2>
+            <ul>
+              <li>Canela e açucar</li>
+              <li>Chocolate meio amargo</li>
+              <li>Doce de leite</li>
+              <li>Baunilha</li>
+            </ul>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="./image/item2cafe.avif" alt="Nome do Item 2">
+        <div class="menu-description">
+          <h2>Café Gelado</h2>
+          <ul>
+            <li>Simples</li>
+            <li>Brigadeiro, beijinho, caramelo..</li>
+            <li>Europeu</li>
+            <li>Cold brew</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="./image/item3cafe.jpg" alt="Nome do Item 3">
+        <div class="menu-description">
+          <h2>Smoothies</h2>
+          <ul>
+            <li>Simples com café</li>
+            <li>Laranja, banana.. (batido com café)</li>
+            <li>Protéico (whey)</li>
+            <li>Outros (açai, chocolate, morango, maracujá..)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="./image/item4cafe.avif" alt="Nome do Item 4">
+        <div class="menu-description">
+          <h2>Café Expresso</h2>
+          <ul>
+            <li>Expresso</li>
+            <li>Expreso com leite</li>
+            <li>Expresso descafeinado</li>
+            <li>Blends especiais</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="./image/item5cafe.jpg" alt="Nome do Item 5">
+        <div class="menu-description">
+          <h2>Gelados Especiais</h2>
+          <ul>
+            <li>Café com nutella</li>
+            <li>Café com doce de leite</li>
+            <li>Capuccino</li>
+            <li>Café com licor</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="./image/item6cafe.jpg" alt="Nome do Item 6">
+        <div class="menu-description">
+          <h2>Frapê de bebida de café frio (frappuccino)</h2>
+          <ul>
+            <li>Oreo com nutella</li>
+            <li>Chocolate, baunilha, doce de leite</li>
+            <li>Choco Chips</li>
+            <li>Strawberry red velvet</li>
+            <li>Cookie latte</li>
+            <li>Pistache</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Mafranezzi</h2>
+    <h3>Fale Conosco:</h3>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
